@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Synergetic.Exercise.Models.Company.CompanyModel>
+@{
+    ViewBag.Title = "Companies";
+}
+
+@Html.ActionLink("Add company", "Add")
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+    @foreach(var company in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(company.Name, "Edit", new { company.Id })
+            </td>
+            <td>
+                @company.Description
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { company.Id }, new { data_delete_button = "true" })
+            </td>
+        </tr>
+    }
+</table>
+
+@section scripts{
+    @Scripts.Render("~/bundles/companies")
+}
+

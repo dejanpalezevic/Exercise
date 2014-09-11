@@ -1,0 +1,32 @@
+﻿@using Synergetic.Exercise.Common.Extensions
+@model Synergetic.Exercise.Models.Company.CompanyModel
+@{
+    ViewBag.Title = "{0} company".With(CurrentAction());
+}
+
+@functions{
+    string CurrentAction()
+    {
+        return Model.Id > 0 ? "Edit" : "Add";
+    }
+}
+
+@using (Html.BeginForm(CurrentAction(), "Company"))
+{
+    @Html.HiddenFor(m => m.Id)
+    <div>
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name)
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Description)
+        @Html.TextBoxFor(m => m.Description)
+        @Html.ValidationMessageFor(m => m.Description)
+    </div>
+    <div>
+        <input type="submit" value="Save" />
+        @Html.ActionLink("Cancel", "Index")
+    </div>
+}
+

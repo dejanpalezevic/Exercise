@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergetic.Exercise.Web", "Synergetic.Exercise\Synergetic.Exercise.Web.csproj", "{ED5356CA-C556-4AAB-9236-7D6FDFE5EAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergetic.Exercise.Model", "Synergetic.Exercise.Model\Synergetic.Exercise.Model.csproj", "{30661390-816F-482F-B11D-5502BD425AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergetic.Exercise.Migrations", "Synergetic.Exercise.Migrations\Synergetic.Exercise.Migrations.csproj", "{21D6409F-4ECA-42F4-8C20-B17EEFACDDBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergetic.Exercise.Data", "Synergetic.Exercise.Data\Synergetic.Exercise.Data.csproj", "{E5513F2A-454B-456D-839F-E67CAB9ACB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergetic.Exercise.Common", "Synergetic.Exercise.Common\Synergetic.Exercise.Common.csproj", "{00E15B2D-027F-452B-95BA-7DCC4D09437D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergetic.Exercise.Init", "Synergetic.Exercise.Init\Synergetic.Exercise.Init.csproj", "{791DE7F8-8EED-47E0-BD13-9C40DBF8DF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergetic.Exercise.Service", "Synergetic.Exercise.Service\Synergetic.Exercise.Service.csproj", "{788F2A4F-26BB-49B7-A124-BE706B0010B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5356CA-C556-4AAB-9236-7D6FDFE5EAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5356CA-C556-4AAB-9236-7D6FDFE5EAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5356CA-C556-4AAB-9236-7D6FDFE5EAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5356CA-C556-4AAB-9236-7D6FDFE5EAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30661390-816F-482F-B11D-5502BD425AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30661390-816F-482F-B11D-5502BD425AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30661390-816F-482F-B11D-5502BD425AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30661390-816F-482F-B11D-5502BD425AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D6409F-4ECA-42F4-8C20-B17EEFACDDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D6409F-4ECA-42F4-8C20-B17EEFACDDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D6409F-4ECA-42F4-8C20-B17EEFACDDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D6409F-4ECA-42F4-8C20-B17EEFACDDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5513F2A-454B-456D-839F-E67CAB9ACB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5513F2A-454B-456D-839F-E67CAB9ACB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5513F2A-454B-456D-839F-E67CAB9ACB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5513F2A-454B-456D-839F-E67CAB9ACB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E15B2D-027F-452B-95BA-7DCC4D09437D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E15B2D-027F-452B-95BA-7DCC4D09437D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E15B2D-027F-452B-95BA-7DCC4D09437D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E15B2D-027F-452B-95BA-7DCC4D09437D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791DE7F8-8EED-47E0-BD13-9C40DBF8DF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791DE7F8-8EED-47E0-BD13-9C40DBF8DF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791DE7F8-8EED-47E0-BD13-9C40DBF8DF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791DE7F8-8EED-47E0-BD13-9C40DBF8DF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788F2A4F-26BB-49B7-A124-BE706B0010B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788F2A4F-26BB-49B7-A124-BE706B0010B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788F2A4F-26BB-49B7-A124-BE706B0010B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788F2A4F-26BB-49B7-A124-BE706B0010B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
